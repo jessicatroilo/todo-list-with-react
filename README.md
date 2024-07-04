@@ -25,9 +25,9 @@ npm install
 4. Démarrez l'application en utilisant la commande suivante :
 
 ```bash
-npm start
+npm run dev
 ```
-5. Ouvrez votre navigateur web et accédez à http://localhost:3000 pour voir l'application en action.
+5. Ouvrez votre navigateur web et accédez à [http://localhost:3000](http://127.0.0.1:5173/?) pour voir l'application en action.
 
 
 ## 🎃Contact
