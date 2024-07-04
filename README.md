@@ -3,6 +3,9 @@
 Bienvenue sur le projet Todo List React ! Cette application web simple mais puissante vous permet de gérer vos tâches quotidiennes de manière efficace et organisée. Conçue avec le populaire framework React, cette Todo List offre des fonctionnalités d'ajout, de suppression et de modification de tâches en temps réel, le tout dans une interface utilisateur conviviale et réactive.
 
 
+![image](https://github.com/jessicatroilo/todo-list-with-react/assets/148094229/7f5fe868-3c44-4d67-a2be-ab23eda1115e)
+
+
 ## 🛠️ Installation
 
 Pour installer et exécuter ce projet sur votre ordinateur local, suivez ces étapes simples :
