@@ -1,5 +1,139 @@
-/*TODO Faire le css ici */
-/*.checkbox > input {opacity:0; position: absolute; inset: 0}
+@import url(https://fonts.bunny.net/css?family=abeezee:400|climate-crisis:400);
+
+/********** App and Header **********/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFC257;
+    color: var(--color-white);
+    font-family: 'ABeeZee', sans-serif;
+}
+
+.app-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+    width: 45em;
+    margin: 1em auto;
+    background-color: #9B89BD;
+    border-radius : 2em; 
+}
+
+h1 {
+    color: #FEC154;
+    font-size: 3.5em;
+    margin: 0.2em;
+    font-family: 'Climate Crisis', display;
+    letter-spacing: 0.1em;
+}
+
+
+/********** Form **********/
+.form-wrapper {
+   width: 90%;
+    display: flex;    
+
+}
+
+.input {
+    width: 100%;
+    padding: 0.5em;
+    border: none;
+    border-radius: 0.5em;
+    font-size: 1em;
+    margin-right: 0.5em;
+    background-color: #f7cc81;
+    font-family: 'ABeeZee', sans-serif;
+    
+}
+
+.input:focus {
+    outline-color: #f7cc81;
+    
+}
+
+.button {
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 0.5em;
+    background-color: #f7cc81;
+    color: #5d3627;
+    font-size: 1em;
+    cursor: pointer;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+.button:hover {
+    background-color: #5d3627;
+    color: #f7cc81;
+}
+
+/********** Todo-list **********/
+.todo-list {
+    width: 100%;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 0.5em;
+    
+
+}
+
+.todo-wrapper {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0.5em;
+    gap : 1em;
+}
+
+.todo-text {
+    font-size: 1.5em;
+    color: white;
+    padding: 0.5em;;
+
+}
+
+.todo-delete {
+    color: rgb(255, 255, 255);
+    background-color: #c56356;
+    font-size: 1.5em;
+    cursor: pointer;
+    border: none; 
+
+}
+
+.todo-delete:hover {
+    background-color: #f44336;
+}
+
+/********** Checkbox **********/
+
+.checkbox {
+    
+    width: 1.5em;
+    height: 1.5em;
+    position: relative;
+    border: 2px solid #9B89BD;
+    border-radius: 0.4em;
+    background-color: #f7cc81 ;
+    color : #5d3627;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    font-size: 1.5em;
+
+    
+}
+
+.checkbox > input {
+opacity:0; 
+position: absolute; 
+inset: 0
+}
+
 .checkbox:focus-within {
     border-color: white;
-}*/
+} 

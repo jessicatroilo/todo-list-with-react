@@ -1,12 +1,14 @@
 import React, {useState} from 'react'
-//TODO import './App.css' -> quand il sera fait le CSS
+import './App.css'
 
 
 function App() {
   
   //1. le state 
   const [todos, setTodos] = useState([
-    {id: 0, name:"Hello", checked: false},
+    {id: 0, name:"Faire mes courses", checked: false},
+    {id: 1, name:"Ranger mon bureau", checked: false},
+    {id: 2, name:"Jouer à Call of Duty", checked: false},
   ]); 
 
     //2. Le comportement
@@ -101,10 +103,11 @@ const Button = ({children,...props}) => {
  * @param {function} onDelete
  * @returns 
  */
-const Task = ({children, onClick}) => {
-  //1. le state 
+const Task = ({children,onClick}) => {
+ //1. le state 
 
-  //2. Le comportement
+
+ //2. Le comportement
 
 
   //3. Le rendu
@@ -114,6 +117,7 @@ const Task = ({children, onClick}) => {
     <button onClick={onClick} className='todo-delete'>X</button>  
   </li>
 }
+
 
 /**
  * checkbox component
@@ -132,6 +136,7 @@ const Checkbox = () => {
   return <div className='checkbox'> 
     <input type="checkbox" checked={checked} onChange={onChange}/>
     {checked && (<span>✓</span>)}
+
     </div>
 }
 
