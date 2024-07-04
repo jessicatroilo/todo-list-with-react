@@ -27,7 +27,7 @@ npm install
 ```bash
 npm run dev
 ```
-5. Ouvrez votre navigateur web et accédez à [http://localhost:3000](http://127.0.0.1:5173/?) pour voir l'application en action.
+5. Ouvrez votre navigateur web et accédez à [http://localhost:5173](http://localhost:5173) pour voir l'application en action.
 
 
 ## 🎃Contact
